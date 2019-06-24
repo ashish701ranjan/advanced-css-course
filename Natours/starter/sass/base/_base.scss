@@ -1,0 +1,14 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* root selector */
+    font-size: 62.5%; /* use %, bad to use px, users changing fonts on browsers won't affect the website's font-size */
+}
+
+body {
+    box-sizing: border-box; /* padding and border are not added to the total height/width of the elem*/
+}
